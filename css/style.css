@@ -145,6 +145,57 @@ img {
     transform: scale(1.1);
 }
 
+.ABOUT {
+    width: 100%;
+    height: 31.25em;
+    background-color: var(--blue);
+    position: relative;
+
+}
+
+.ABOUT-ANGULATION {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ANGULATION {
+    width: 100%;
+    height: 24em;
+    background-color: #000;
+    transform: skewY(-3deg)
+}
+
+.ABOUT-POSITION {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.ABOUT-TEXT {
+    width: 50%;
+    color: #fff;
+    text-align: justify;
+}
+
+.ABOUT-TEXT h2 {
+    font-size: 2.18em;
+    margin-bottom: 0.5em;
+
+}
+
+.ABOUT-TEXT p {
+    font-size: 1.125em;
+    margin-bottom: 1em;
+}
+
+.ABOUT-POSITION img{
+    max-width: 31.87em;
+}
+
 @media screen and (max-width: 74.93em){
 
 }
