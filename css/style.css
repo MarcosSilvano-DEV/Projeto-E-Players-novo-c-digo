@@ -196,6 +196,43 @@ img {
     max-width: 31.87em;
 }
 
+.LINHA {
+    border: solid 1px white;
+    height: 5.5em
+}
+
+.GAMES-AOVIVO, .GAMES-EMBREVE {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 1.875em;
+    justify-content: space-around;
+}
+
+.PARTIDA {
+    width: 9.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.TIME1, .TIME2 {
+    display: flex;
+    align-items: center;
+}
+
+.PARTIDA img {
+    width: 1.8em;
+}
+
+.TIME1 img {
+    margin-left: 0.5em;
+}
+
+.TIME2 img {
+    margin-right: 0.5em;
+}
 @media screen and (max-width: 74.93em){
 
 }
